@@ -1,0 +1,12 @@
+.product-item {
+  border: 0.5px dotted rgb(255, 255, 255);
+  padding: 4px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  justify-content: center;
+  display: flex;
+}
+
+.product-item:hover {
+  transform: scale(1.5);
+}
